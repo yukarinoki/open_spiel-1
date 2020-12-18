@@ -100,6 +100,8 @@ set(GAME_SOURCES
   pig.h
   quoridor.cc
   quoridor.h
+  raumschach.cc
+  raumschach.h
   sheriff.cc
   sheriff.h
   skat.cc
@@ -392,6 +394,10 @@ add_test(pig_test pig_test)
 add_executable(quoridor_test quoridor_test.cc ${OPEN_SPIEL_OBJECTS}
                $<TARGET_OBJECTS:tests>)
 add_test(quoridor_test quoridor_test)
+
+add_executable(raumschach_test raumschach_test.cc ${OPEN_SPIEL_OBJECTS}
+               $<TARGET_OBJECTS:tests>)
+add_test(raumschach_test raumschach_test)
 
 add_executable(sheriff_test sheriff_test.cc ${OPEN_SPIEL_OBJECTS}
                $<TARGET_OBJECTS:tests>)

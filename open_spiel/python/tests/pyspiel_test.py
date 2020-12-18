@@ -80,6 +80,7 @@ EXPECTED_GAMES = set([
     "phantom_ttt",
     "pig",
     "quoridor",
+    "raumschach",
     "repeated_game",
     "sheriff",
     "skat",
